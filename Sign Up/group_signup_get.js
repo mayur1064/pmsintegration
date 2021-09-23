@@ -134,9 +134,9 @@ E.g 3 http://localhost:10027/api/department/3
 ]
 
 
-5. http://localhost:10027/api/types/{collegeid}
+5. http://localhost:10027/api/types/
 
-http://localhost:10027/api/types/1
+http://localhost:10027/api/types/
 
 [
     {
@@ -149,22 +149,11 @@ http://localhost:10027/api/types/1
     }
 ]
 
-6. http://localhost:10027/api/types/2
 
-[
-    {
-        "id": 3,
-        "actualtype": "Industrial"
-    },
-    {
-        "id": 4,
-        "actualtype": "Research"
-    }
-]
 
-7. http://localhost:10027/api/getDomains/{collegeid}/{departmentid}
+6. http://localhost:10027/api/getDomains/{departmentid}
 
-http://localhost:10027/api/getDomains/1/1
+http://localhost:10027/api/getDomains/1
 
 [
     {
@@ -186,7 +175,7 @@ http://localhost:10027/api/getDomains/1/1
     ...
 ]
 
-http://localhost:10027/api/getDomains/1/3
+http://localhost:10027/api/getDomains/3
 
 [
     {
@@ -208,7 +197,7 @@ http://localhost:10027/api/getDomains/1/3
     ...
 ]
 
-http://localhost:10027/api/getDomains/1/4
+http://localhost:10027/api/getDomains/4
 
 [
     {
