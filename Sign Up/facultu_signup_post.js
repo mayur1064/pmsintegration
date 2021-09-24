@@ -1,5 +1,5 @@
 
-For Faculty Register
+For User Register
 
 post(`http://localhost:10027/api/auth/signup`, {
     Person_Id: Person_Id, // This is empty 
