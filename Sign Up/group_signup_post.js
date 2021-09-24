@@ -18,7 +18,7 @@ post(`http://localhost:10027/api/submitgrp`, {
     userarray: userarray, //Array of group members
   })
   
-  Example of the object is sent in the post request in body
+  Example of the object  sent in the post request in body
   {projectname: "", 
   year: "Btech", 
   instructerid2: 1,
@@ -54,20 +54,4 @@ post(`http://localhost:10027/api/postC&C/${companyId}/${collegeId}`);
 
 ---------------------------------------------------------------------------------
 
-Below one we will do it in faculty register
-
-// To Add Faculty
-// post(`http://localhost:10027/api/auth/signup`, {
-//     Person_Id: user.Person_Id,
-//     username: user.username,
-//     FullName: user.FullName,
-//     email: user.email,
-//     grno_EmpCode: user.grno_EmpCode,
-//     Mobile: user.Mobile,
-//     password: user.password,
-//     roles: user.roles,
-//     college: user.college,
-//     department: user.department,
-//   });
-// }
 
