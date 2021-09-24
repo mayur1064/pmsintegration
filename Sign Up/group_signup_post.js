@@ -19,11 +19,7 @@ post(`http://localhost:10027/api/submitgrp`, {
   })
   
   Example of the object  sent in the post request in body
-  {projectname: "", 
-  year: "Btech", 
-  instructerid2: 1,
-  instructerid1: 4, 
-  Instructor_id_industry: "2",
+  {
   College_id: 1,
   Companyid: "1",  
   Department_id: 1,  
