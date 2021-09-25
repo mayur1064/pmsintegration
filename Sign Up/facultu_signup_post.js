@@ -26,3 +26,9 @@ Example object sent in post request
 "roles": 3, 
 "college": 1, 
 "department": 1 }
+
+
+Response
+
+SUCCESS -> {"message":"User was registered successfully!"}
+Failure -> return error with {"message":"Failed! Username is already in use!"}
