@@ -1,3 +1,6 @@
+https://drive.google.com/drive/folders/15gCdnAchTkzPzCJpjowVGO5QE4B_tAmm?usp=sharing
+Use the above database for the following routes
+
 1) http://localhost:10027/api/groups/{Group_id}
 
 E.g 1) http://localhost:10027/api/groups/5
